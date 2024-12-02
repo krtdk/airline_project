@@ -7,7 +7,7 @@ import lombok.Data;
 import java.sql.Timestamp;
 
 /**
- * @author 서영
+ *   
  * 결제 요청 시 반환받는 Dto
  */
 @Data

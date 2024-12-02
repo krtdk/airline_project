@@ -15,9 +15,6 @@ public class RefundService {
 	private RefundFeeRepository refundFeeRepository;
 
 	/**
-	 * @author 서영
-	 * 필요한 것 : 국내선/국제선 여부, 출발일
-	 * @return 환불 수수료 구하기
 	 */
 	@Transactional
 	public Long readRefundFee(Integer scheduleType, Integer dayCount) {

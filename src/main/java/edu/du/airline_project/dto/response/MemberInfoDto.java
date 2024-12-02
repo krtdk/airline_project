@@ -6,7 +6,7 @@ import lombok.Data;
 import java.sql.Timestamp;
 
 /**
- * @author 서영
+ *   
  */
 @Data
 public class MemberInfoDto {

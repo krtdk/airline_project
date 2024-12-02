@@ -35,7 +35,7 @@ public interface ProductRepository {
 	public List<ShopProduct> selectProductByName(@Param("searchProduct") String searchProduct, @Param("searchOption")String searchOption,@Param("paging")PagingVO paging);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 구매내역 + 상품 조인해서 구매량이 많은 상위 5개 물품 가져옴
 	 */
 	public List<ProductBrandOrderAmountDto> selectSumAmountGroupByProductLimitN(Integer limitCount);

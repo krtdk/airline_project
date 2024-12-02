@@ -5,7 +5,7 @@ import edu.du.airline_project.utils.NumberUtil;
 import lombok.Data;
 
 /**
- * @author 서영
+ *   
  */
 @Data
 public class RefundFee {

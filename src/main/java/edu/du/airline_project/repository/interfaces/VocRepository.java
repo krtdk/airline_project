@@ -13,7 +13,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * @author 서영
+ *   
  * 고객의 소리 관련
  */
 @Mapper

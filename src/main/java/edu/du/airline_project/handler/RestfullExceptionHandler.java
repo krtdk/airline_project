@@ -34,7 +34,7 @@ public class RestfullExceptionHandler {
 	}
 
 	/**
-	 * @author 서영 경로를 지정해서 던지는 예외 클래스 활용
+	 *    경로를 지정해서 던지는 예외 클래스 활용
 	 */
 	@ExceptionHandler(CustomPathException.class)
 	public String customPathException(CustomPathException e) {

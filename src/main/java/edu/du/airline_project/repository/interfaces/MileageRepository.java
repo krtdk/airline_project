@@ -37,37 +37,37 @@ public interface MileageRepository {
 	public List<Mileage> selectMileageTbOrderByMileageDateByMemberId(String memberId);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * mileage_tb에 티켓 관련 사용 내역 추가
 	 */
 	public Integer insertUseMileageByTicket(Mileage mileage);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * use_mileage_list_tb에 티켓 관련 사용 내역 상세 추가
 	 */
 	public Integer insertUseMileageDetailByTicket(UseMileage useMileage);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 해당 티켓 아이디에 의해 사용된 마일리지 상세 내역 가져오기
 	 */
 	public List<UseMileage> selectUseMileageDataDetailByTicketId(String ticketId);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 환불 시 사용하는 balance 갱신
 	 */
 	public Integer updateBalanceByRefund(@Param("id") Integer id, @Param("balance") Long balance);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 환불 후 사용 상세 내역은 삭제
 	 */
 	public Integer deleteUseMileageDetailByTicketId(Integer id);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 환불된 마일리지를 적립 내역으로 추가
 	 */
 	public Integer insertRefundMiles(Mileage mileage);

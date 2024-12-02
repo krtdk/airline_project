@@ -32,7 +32,7 @@ public interface FaqRepository {
 	FaqResponseDto selectFaqById(Integer id);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 모든 faq 조회
 	 */
 	List<FaqResponseDto> selectFaqAll();

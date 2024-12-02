@@ -4,7 +4,7 @@ import lombok.Data;
 
 
 /**
- * @author 서영
+ *   
  * 좌석의 예약 여부를 보여주기 위함
  */
 @Data

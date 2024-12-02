@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * @author 치승 추천 여행지 게시글
+ *     추천 여행지 게시글
  */
 
 @Controller

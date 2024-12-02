@@ -3,7 +3,7 @@ package edu.du.airline_project.dto.response;
 import lombok.Data;
 
 /**
- * @author 서영
+ *   
  * 선택한 좌석 정보
  */
 @Data

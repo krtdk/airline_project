@@ -26,7 +26,6 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * @author 치승 추천 여행지 게시글
  */
 @Service
 public class BoardService {

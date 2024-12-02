@@ -3,7 +3,7 @@ package edu.du.airline_project.dto.request;
 import lombok.Data;
 
 /**
- * @author 서영
+ *   
  * 메인 페이지에서 항공권 조회 시 받아오는 Dto
  */
 @Data

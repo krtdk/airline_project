@@ -69,7 +69,7 @@ public interface InFlightServiceRepository {
 	
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 티켓 취소/환불 시 신청 삭제
 	 */
 	Integer deleteByTicketId(String ticketId);

@@ -62,7 +62,7 @@ public class FaqService {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 모든 faq
 	 */
 	public List<FaqResponseDto> readFaqAll() {

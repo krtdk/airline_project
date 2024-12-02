@@ -100,7 +100,7 @@ public class ManagerController {
 	private HttpSession session;
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 대시보드 (관리자 페이지의 메인)
 	 */
 	@GetMapping("/dashboard")
@@ -255,7 +255,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영 메모 갱신
+	 *    메모 갱신
 	 */
 	@PostMapping("/updateMemo")
 	@ResponseBody
@@ -267,7 +267,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원정보 조회
 	 */
 	@GetMapping("/memberList/{page}")
@@ -288,7 +288,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원정보 조회 검색
 	 */
 	@GetMapping("/memberList/search")
@@ -303,7 +303,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원정보 상세 페이지
 	 */
 	@GetMapping("/memberDetail/{id}")
@@ -316,7 +316,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 관리자 정보 조회
 	 */
 	@GetMapping("/list/{page}")
@@ -337,7 +337,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 관리자 정보 조회 검색
 	 */
 	@GetMapping("/list/search")
@@ -352,7 +352,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 항공 서비스 탭 메인 페이지
 	 */
 	@GetMapping("/airService")
@@ -361,7 +361,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원관리 탭 메인 페이지
 	 */
 	@GetMapping("/userManage")
@@ -370,7 +370,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 마일리지샵 탭 메인 페이지
 	 */
 	@GetMapping("/mileageShop")
@@ -379,7 +379,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 관리자용 항공권 조회 페이지
 	 */
 	@GetMapping("/scheduleList")
@@ -392,7 +392,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 관리자용 항공권 구매 내역 페이지
 	 */
 	@GetMapping("/ticketList/{page}")
@@ -413,7 +413,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영 회원 탈퇴 처리
+	 *    회원 탈퇴 처리
 	 */
 	@PutMapping("/memberWithdraw/{memberId}")
 	@ResponseBody
@@ -511,7 +511,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 고객센터 탭 메인 페이지
 	 */
 	@GetMapping("/customerCenter")
@@ -520,7 +520,7 @@ public class ManagerController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 게시판 관리 탭 메인 페이지
 	 */
 	@GetMapping("/boardManage")

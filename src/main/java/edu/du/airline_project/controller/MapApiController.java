@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 /**
- * @author 치승 구글 맵 API
+ *     구글 맵 API
  */
 
 @Controller

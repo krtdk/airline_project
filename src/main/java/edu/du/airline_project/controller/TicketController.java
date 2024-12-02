@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author 서영
+ *   
  * 티켓 예매 관련 컨트롤러
  */
 @Controller

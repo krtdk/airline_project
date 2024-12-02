@@ -90,7 +90,7 @@ public class NoticeService {
 	}
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 메인페이지용 
 	 */
 	public List<NoticeResponseDto> readOrderByCreatedAtDescLimitN(Integer limitCount) {

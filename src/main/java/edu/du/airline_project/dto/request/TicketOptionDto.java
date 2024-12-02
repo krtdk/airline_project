@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author 서영
+ *   
  * 좌석 선택 전, 스케줄id, 좌석 수(성인/소아/유아), 좌석 등급을 받는 Dto
  * 
  */

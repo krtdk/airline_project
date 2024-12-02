@@ -46,7 +46,7 @@ public interface NoticeRepository {
 	int updateNoticeById(Notice notice);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 최근 순으로 정렬한 N개의 공지사항 (메인페이지용)
 	 */
 	List<NoticeResponseDto> selectOrderByIdDescLimitN(Integer limitCount);

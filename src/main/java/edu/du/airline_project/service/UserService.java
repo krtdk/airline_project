@@ -79,7 +79,6 @@ public class UserService {
 	}
 
 	/**
-	 * @author 서영
 	 * @return 회원 정보
 	 */
 	@Transactional
@@ -175,14 +174,14 @@ public class UserService {
 	}
 
 	/**
-	 * @author 서영 해당 월의 신규 회원 수
+	 *    해당 월의 신규 회원 수
 	 */
 	public CountByYearAndMonthDto readNewUserCount(Integer year, Integer month) {
 		return userRepository.selectNewUserCountByMonth(year, month);
 	}
 
 	/**
-	 * @author 서영 해당 월의 탈퇴 회원 수
+	 *    해당 월의 탈퇴 회원 수
 	 */
 	public CountByYearAndMonthDto readWithdrawUserCount(Integer year, Integer month) {
 		return userRepository.selectWithdrawUserCountByMonth(year, month);
@@ -254,7 +253,7 @@ public class UserService {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 모든 회원 목록 (가입상태-탈퇴상태 순)
 	 */
 	public List<Member> readMemberListAll() {
@@ -267,7 +266,7 @@ public class UserService {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원 검색
 	 */
 	public List<MemberInfoDto> readMemberListSearch(String search) {
@@ -275,7 +274,7 @@ public class UserService {
 	}
 	
 	/**
-	 * @author 서영
+	 *   
 	 * User 모델을 이용한 User 등록
 	 */
 	@Transactional
@@ -287,7 +286,7 @@ public class UserService {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원 등급 리스트
 	 */
 	public List<MemberGrade> readMemberGradeList() {

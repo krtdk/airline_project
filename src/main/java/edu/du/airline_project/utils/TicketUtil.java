@@ -7,7 +7,7 @@ import edu.du.airline_project.dto.response.SeatStatusResponseDto;
 import java.util.List;
 
 /**
- * @author 서영
+ *   
  * Ticket 관련 메서드
  *
  */

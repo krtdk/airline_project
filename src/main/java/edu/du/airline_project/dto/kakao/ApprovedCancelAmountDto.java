@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author 서영
+ *   
  * 환불 요청 시 필요한 Dto
  */
 @Data

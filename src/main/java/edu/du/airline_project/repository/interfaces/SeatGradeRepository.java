@@ -4,7 +4,7 @@ import edu.du.airline_project.repository.model.SeatGrade;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * @author 서영
+ *   
  *
  */
 @Mapper

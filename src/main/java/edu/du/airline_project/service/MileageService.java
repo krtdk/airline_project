@@ -16,7 +16,6 @@ import java.sql.Timestamp;
 import java.util.List;
 
 /**
- * @author 정다운
  *
  */
 @Service
@@ -111,7 +110,7 @@ public List<Mileage> readMileageTbOrderByMileageDateByMemberId(String memberId) 
 	}
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 마일리지 티켓 결제
 	 */
 	@Transactional
@@ -171,7 +170,7 @@ public List<Mileage> readMileageTbOrderByMileageDateByMemberId(String memberId) 
 	}
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 티켓 마일리지 결제 환불 처리
 	 */
 	@Transactional

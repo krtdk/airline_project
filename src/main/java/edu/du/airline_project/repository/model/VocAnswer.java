@@ -6,7 +6,7 @@ import javax.validation.constraints.NotBlank;
 import java.sql.Timestamp;
 
 /**
- * @author 서영
+ *   
  * 고객의 말씀 답변
  */
 @Data

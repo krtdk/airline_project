@@ -40,19 +40,19 @@ public interface MemberRepository {
 	public Member selectByKorNameandEmailAndBirthDate(Member member);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * @return 전체 회원 목록
 	 */
 	public List<Member> selectMemberListAll();
 	
 	/**
-	 * @author 서영
+	 *   
 	 * @return 전체 회원 목록 (페이징용) 20개씩
 	 */
 	public List<MemberInfoDto> selectMemberListAllLimit(Integer index);
 	
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원 검색
 	 */
 	public List<MemberInfoDto> selectMemberListSearch(String search);

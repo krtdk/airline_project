@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.HashMap;
 
 /**
- * @author 서영
  * 문자 발송
  */
 @Service

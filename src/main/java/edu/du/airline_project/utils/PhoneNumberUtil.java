@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus;
 public class PhoneNumberUtil {
 
 	/**
-	 * @author 서영
+	 *   
 	 * @param phoneNumber
 	 * 전화번호 형식 확인 후 xxx-xxxx-xxxx 형식으로 반환
 	 */

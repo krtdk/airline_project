@@ -6,7 +6,7 @@ import lombok.Data;
 import java.sql.Timestamp;
 
 /**
- * @author 서영
+ *   
  * 고객의 말씀 게시글 관련 정보
  */
 @Data

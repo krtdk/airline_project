@@ -42,18 +42,18 @@ public interface UserRepository {
 	int updateUserById(PasswordCheckDto passwordCheckDto);
 
 	/**
-	 * @author 서영 해당 월의 신규 회원 수
+	 *    해당 월의 신규 회원 수
 	 */
 	public CountByYearAndMonthDto selectNewUserCountByMonth(@Param("year") Integer year, @Param("month") Integer month);
 
 	/**
-	 * @author 서영 해당 월의 탈퇴 회원 수
+	 *    해당 월의 탈퇴 회원 수
 	 */
 	public CountByYearAndMonthDto selectWithdrawUserCountByMonth(@Param("year") Integer year,
 			@Param("month") Integer month);
 
 	/**
-	 * @author 서영
+	 *   
 	 */
 	public Integer insert(User user);
 	

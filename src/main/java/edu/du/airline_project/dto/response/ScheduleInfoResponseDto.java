@@ -7,7 +7,7 @@ import java.sql.Timestamp;
 
 
 /**
- * @author 서영
+ *   
  * 운항스케줄 관련 정보 Dto
  */
 @Data

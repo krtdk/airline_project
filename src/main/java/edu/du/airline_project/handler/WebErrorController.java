@@ -11,7 +11,7 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author 치승
+ *      
  * 에러페이지 
  */
 

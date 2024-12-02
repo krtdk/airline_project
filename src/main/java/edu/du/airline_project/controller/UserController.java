@@ -70,7 +70,7 @@ public class UserController {
 	private VocService vocService;
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 메인 페이지
 	 */
 	@GetMapping("")
@@ -117,7 +117,7 @@ public class UserController {
 
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 로그인 페이지
 	 */
 	@GetMapping("/login")
@@ -481,7 +481,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원 안내
 	 */
 	@GetMapping("/memberGrade")
@@ -494,7 +494,7 @@ public class UserController {
 	}
 
 	/**
-	 * @author 서영
+	 *   
 	 * @return 회원용 고객센터
 	 */
 	@GetMapping("/customerCenter")

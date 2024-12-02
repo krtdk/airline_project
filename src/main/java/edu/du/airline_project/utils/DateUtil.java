@@ -6,7 +6,7 @@ import java.sql.Date;
 public class DateUtil {
 
 	/**
-	 * @author 서영
+	 *   
 	 * 날짜를 yyyy년 mm월 dd일과 같은 형태로 변환함
 	 */
 	public static String dateFormat(Date date) {

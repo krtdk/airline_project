@@ -129,7 +129,7 @@ public class ProductService {
 	}
 	
 	/**
-	 * @author 서영
+	 *   
 	 * 구매량이 많은 상위 n개 브랜드
 	 */
 	public List<ProductBrandOrderAmountDto> readTopNBrand(Integer limitCount) {

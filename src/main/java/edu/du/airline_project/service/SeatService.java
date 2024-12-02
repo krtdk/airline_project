@@ -16,7 +16,6 @@ import java.util.List;
 
 
 /**
- * @author 서영
  *
  */
 @Service

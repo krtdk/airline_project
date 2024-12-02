@@ -3,7 +3,7 @@ package edu.du.airline_project.dto.request;
 import lombok.Data;
 
 /**
- * @author 서영
+ *   
  * 환불 신청 시 사용하는 Dto
  */
 @Data
